@@ -7,7 +7,33 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
 img {
     width: 200px;
     height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header-links {
+    display: flex;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }

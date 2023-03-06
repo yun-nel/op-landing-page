@@ -17,8 +17,12 @@ ul {
     margin: 0;
 }
 
+li {
+    margin-left: 25px;
+}
+
 img {
-    width: 200px;
+    width: 400px;
     height: auto;
 }
 
@@ -26,6 +30,7 @@ img {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 5px 270px;
 }
 
 .header-links {
@@ -36,4 +41,38 @@ img {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 270px;
+    background-color: #1F2937;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #F9FAF8;
+    width: 450px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 0;
+    width: 100px;
+    height: 30px;
 }

@@ -79,6 +79,7 @@ img {
     border: 0;
     width: 100px;
     height: 30px;
+    font-weight: 800;
 }
 
 /* SECTION TWO */
@@ -144,6 +145,46 @@ img {
     font-weight: 800;
 }
 
+/* SECTION FOUR */
 
+.section-four {
+    display: flex; 
+    justify-content: center;
+    padding: 130px 0px;
+}
 
-800+ 120
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    width: 1194px;
+    height: 151px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.sign-up-header {
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.sign-up-subtext {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.bottom-button {
+    margin-left: auto;
+    margin-right: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    font-weight: 800;
+    width: 100px;
+    height: 30px;
+}
